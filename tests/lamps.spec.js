@@ -29,15 +29,5 @@ await page.locator("//span[text()='Availability']//following::span[1]").click({ 
 await page.locator("(//span[@class='tag__text'])[1]/../..//span[contains(@class,'checkbox')]").click({ force: true });
 console.log(await page.locator(".tag__text").allTextContents());
 console.log(await page.locator("//span[@class='tag__text']/..").allTextContents());
-// await page.locator("//span[contains(.,'Account')]").click();
-
-// console.log(await page.title())
-// await page.locator("(//label[contains(text(),'Email')])[1]//following-sibling::input[1]").fill('hello@gmail.com')
-
-
-// await page.keyboard.press('Escape');
-// await page.locator("//button[contains(text(),'Sign In')]").click();
-// await page.keyboard.press('Escape');
-// console.log(await page.locator("//div[@class='errors']//li").textContent())
 
 })
