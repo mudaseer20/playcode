@@ -1,6 +1,6 @@
 import { test,chromium ,expect} from '@playwright/test';
 
-test.only('first test',async ({browser,page})=>
+test('first test',async ({browser,page})=>
 {
 
 await page.goto("https://kapoorlampshades.com/")
